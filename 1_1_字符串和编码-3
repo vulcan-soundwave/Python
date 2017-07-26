@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+s1 = float(input('上次成绩是：'))
+s2 = float(input('这次成绩是：'))
+r = s2/s1-1
+print('成绩提高百分点：%2.1f%%' % (r*100))

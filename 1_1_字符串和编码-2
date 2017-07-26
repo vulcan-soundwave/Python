@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#Program:
+#	字符串和编码-练习
+#History:
+#2017/7/20//Tur.  soundwave  First release
+
+s1 = 72
+s2 = 85
+r = 85/72-1
+
+print('''\'小明上次成绩:	%d\'	% s1
+\'小明这次成绩:	%d\'	% s2
+\'小明成绩提升的百分点:	%2.1f%%\'       % (r*100)''')
